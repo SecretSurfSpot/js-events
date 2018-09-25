@@ -3,7 +3,8 @@
 A single page JavaScript MVC application that allows some simple calculations.
 
 
-###Process Flow Diagram
+### Process Flow Diagram
+
 The diagram below provides an overview of the process flow through the Model-View-Controller-Browser elements of the application for the square number calculation.
 
 ![processFlowSquareNumber diagram](https://github.com/SecretSurfSpot/js-events/blob/master/images/processFlowSquareNumber.png)
