@@ -1,48 +1,7 @@
 # JavaScript Events
 
-In web development, an event refers to something which happens to an html element.  This 'something' can be triggered by a user, or by the browser itself.  Examples of events include;
+![processFlowSquareNumber diagram](https://github.com/SecretSurfSpot/js-events/blob/master/images/processFlowSquareNumber.png)
 
-- a user clicking on a page element
-- a user changing content of an input field
-- a browser finishing loading a page
-
-Luckily, JavaScript allows us to utilise these events as triggers for useful functionality.
-
-Here's a simple example
-```html
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>JS Events example</title>
-  </head>
-
-  <body>
-    <div id="greeting"></div>
-    <button type="button" id="greeting-button">Say Hi</a>
-
-    <script>
-      listenForButtonClick();
-
-      function listenForButtonClick() {
-        document.getElementById("greeting-button")
-          .addEventListener("click", sayHello);
-      };
-
-      function sayHello() {
-        document
-          .getElementById("greeting").innerHTML = "Oh hai!";
-      };
-    </script>
-  </body>
-</html>
-```
-
-There are a few things of interest here - the div and button elements with ids of `greeting` and `greeting-button`, and the JavaScript functions below.
-
-Notice that the function `listenForbuttonclick` is called as soon as the page is loaded.  This function is responsible for setting up an `event listener` - it targets the button element and sets up some instructions to execeute once a user has clicked on it. Nothing happens until this action takes place.  At that point, the `sayHello` funciton is called and some text is added to the page element with an id of 'greeting'
-
-You can copy and paste the above snippet into a html document and open it in your browser to see this happening in action.
 
 ### Instructions
 
