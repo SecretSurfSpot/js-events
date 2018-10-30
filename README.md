@@ -12,7 +12,7 @@ The diagram below provides an overview of the process flow through the Model, Vi
 ### Instructions
 
 - Clone this repo
-- Navigate to the `index.html` page and open it in your browser
+- Navigate to the project root, then open the `index.html` page in your browser
 - Use any of the following 3 calculation options:
   - Square of number
   - Half a number
