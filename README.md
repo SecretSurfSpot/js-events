@@ -1,6 +1,6 @@
 # JavaScript Events
 
-A single page JavaScript MVC application that allows some simple calculations.
+A single page MVC application, written solely in JavaScript, that allows the user to make some simple calculations.
 
 
 ### Process Flow Diagram
@@ -12,7 +12,8 @@ The diagram below provides an overview of the process flow through the Model, Vi
 ### Instructions
 
 - Clone this repo
-- Open `index.html` in your browser and use any of the following 3 calculation options:
-- Square of number
-- Half a number
-- Calculate a percentage
+- Navigate to the `index.html` page and open it in your browser
+- Use any of the following 3 calculation options:
+  - Square of number
+  - Half a number
+  - Calculate a percentage
